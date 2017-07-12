@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#f6262524"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buble_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Buble Sort"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:onClick="showGifBuble"
+
+        />
+    <Button
+        android:id="@+id/merge_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Merge Sort"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:onClick="showGifMerge"
+
+        />
+    <Button
+        android:id="@+id/quick_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Quick Sort"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:onClick="showGifQuick"
+
+        />
+    <Button
+        android:id="@+id/heap_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Heap Sort"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:onClick="showGifHeap"
+
+        />
+    <Button
+        android:id="@+id/Inserton_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Insertion Sort"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:onClick="showGifInsert"
+
+        />
+
+
+
+
+
+</LinearLayout>
